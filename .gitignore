@@ -1,0 +1,18 @@
+
+# Dependencias de Node.js
+node_modules/
+
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
