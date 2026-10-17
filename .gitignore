@@ -1,22 +1,7 @@
 
 
 node_modules/
-
-
-venv/
+dist/
 .env
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.env.*
+!.env.example
