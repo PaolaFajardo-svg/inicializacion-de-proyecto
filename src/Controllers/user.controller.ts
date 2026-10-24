@@ -1,6 +1,12 @@
 import { Request, Response } from "express";
 
 export class UserController {
+    static changeUserEmail(arg0: string, changeUserEmail: any) {
+        throw new Error('Method not implemented.');
+    }
+    static acceptUserInventory(arg0: string, acceptUserInventory: any) {
+        throw new Error('Method not implemented.');
+    }
     public static CreateUser = (req: Request, res: Response): void => {
         res.status(501).json({
             success: false,
