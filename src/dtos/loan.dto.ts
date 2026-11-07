@@ -1,6 +1,6 @@
 export interface ICreateLoanDTO {
-  aula: string;
-  numeroPC: number;
-  nombreGuardaEntrega: string;
-  instructorRecibe: string;
+  numeroPc: any;
+  roomId: any;
+  instructorId: any;
+  guardaId: any;
 }
